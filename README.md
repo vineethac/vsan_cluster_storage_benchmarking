@@ -1,2 +1,8 @@
-# vsan_cluster_storage_benchmarking
+# Overview
 Storage performance benchmarking of vsan clusters using diskspd and powershell
+
+# Input files
+
+# How to use?
+
+# Output logs
