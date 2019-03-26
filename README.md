@@ -20,7 +20,7 @@ Tested on PowerShell version: 5.1.14393.2515 and PowerCLI version: 11.0.0.103805
 # How to use?
 Provide all necessary details in the above mentioned two input files. <br />
 
-Invoke deploy_test_vms.ps1 (provide VCSA creds and administrator password of the Windows template VM). <br />
+Invoke deploy_test_vms.ps1 (provide VCSA creds and administrator password of the Windows template VM). This script will start deploying stress-test-vms on each of the ESXi node in the cluster as per input provided in benchmarking_manifest.psd1. "VM_count_per_host" defines the total number of stress-test-vms that will be deployed per ESXi host. One stress test drive of size as defined in "disk_size_in_GB" will be created and attached to each stress-test-vm. This stress drive will be in GPT partition with NTFS file system and will have a allocation unit size as defined in "disk_aus_in_bytes".<br />
 
 Once the stress-test-VMs are deployed, you can invoke start_stress_test.ps1 (provide VCSA creds and administrator password of the Windows template VM). This script will start the stroage stress test based on the profiles defined in profile_manifest.psd1 file one after another automatically and the corresponding log files will be saved to local machine as explained below. <br />
 
