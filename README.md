@@ -12,7 +12,7 @@ A Windows VM template should be available in the vCenter (with just C drive and 
 
 As you can see above, I have a template named "template_vm_2019". This is just a Windows 2019 VM with only C drive (thin provisioned) and diskspd.exe is already copied and present in C:\ drive. <br /> 
 
-VMtools should be installed on the above Windows template VM. <br />
+VMtools should be pre-installed on the above Windows template VM. <br />
 VMware.PowerCLI module should be installed on the local machine from where the scripts are running. <br />
 Tested on PowerShell version: 5.1.14393.2515 and PowerCLI version: 11.0.0.10380590. <br />
 
