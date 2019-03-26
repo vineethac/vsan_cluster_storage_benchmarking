@@ -18,8 +18,10 @@ Tested on PowerShell version: 5.1.14393.2515 and PowerCLI version: 11.0.0.103805
 
 # How to use?
 Provide all necessary details in the above mentioned two input files. <br />
+
 Invoke deploy_test_vms.ps1 (provide VCSA creds and administrator password of the Windows template VM). <br />
-Once the stress-test-VMs are deployed, you can invoke start_stress_test.ps1 (provide VCSA creds and administrator password of the Windows template VM). <br />
+
+Once the stress-test-VMs are deployed, you can invoke start_stress_test.ps1 (provide VCSA creds and administrator password of the Windows template VM). This script will start the stroage stress test based on the profiles defined in profile_manifest.psd1 file one after another and the corresponding log files will be saved to local machine as explained below. <br />
 
 # Output logs
 Logs of diskspd application from each stress-test-vm for each storage test profile will be saved in seperate folders under C:\temp on the local machine from where the script is running. <br />
