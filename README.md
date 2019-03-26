@@ -23,3 +23,5 @@ Once the stress-test-VMs are deployed, you can invoke start_stress_test.ps1 (pro
 
 # Output logs
 Logs of diskspd application from each stress-test-vm for each storage test profile will be saved in seperate folders under C:\temp on the local machine from where the script is running. <br />
+
+![image](https://user-images.githubusercontent.com/30316226/54985328-9ef59100-4fd6-11e9-8338-da88aa2f5fe7.png)
