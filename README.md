@@ -7,7 +7,7 @@ benchmarking_manifest.psd1  : VCSA IP, cluster name, template name, etc. are def
 profile_manifest.psd1       : all storage test profiles are defined in this file. <br />
 
 # Prerequisites
-A Windows VM template should be available in the vCenter (with just C drive and diskspd.exe application should be available in C:\).<br />
+A Windows VM template should be available in the vCenter (with just C drive and diskspd.exe application should be available in root of C drive).<br />
 
 ![image](https://user-images.githubusercontent.com/30316226/54984601-30fc9a00-4fd5-11e9-886e-deac7f947d39.png)
 
