@@ -24,6 +24,8 @@ Invoke deploy_test_vms.ps1 (provide VCSA creds and administrator password of the
 
 Once the stress-test-VMs are deployed, you can invoke start_stress_test.ps1 (provide VCSA creds and administrator password of the Windows template VM). This script will start the stroage stress test based on the profiles defined in profile_manifest.psd1 file one after another automatically and the corresponding log files will be saved to local machine as explained below. <br />
 
+Run delete_test_vms.ps1 to wipe off the stress-test-vms from the cluster.
+
 # Output logs
 Logs of diskspd application from each stress-test-vm for each storage test profile will be saved in seperate folders under C:\temp on the local machine from where the script is running. <br />
 
